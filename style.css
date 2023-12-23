@@ -1,0 +1,71 @@
+*, ::before, ::after
+{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    width: 390px;
+    height: 844px;
+    background-color: #e0c2c2;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(202, 30, 30);
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+.container{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    
+    
+}
+h3{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    text-shadow: rgb(255, 0, 0) 1px 0 10px;
+}
+.textIndications{
+    color: rgb(18, 101, 31); 
+    font-family: 'Sevillana', cursive;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.imgPrincipale{
+    width: 100%;
+    height: 700px;
+    /* opacity: 0.6; */
+
+}
+.imgCadeau{
+    width: 80%;
+}
+.lienVersPage2{
+    text-decoration: none;
+}
+#button{
+    background-color: #e0c2c2;
+    border: none;
+    margin-top: 100px;
+}
+
+/* page 2 */
+
+.page2{
+    background-image: url(./Images/photoCarteNoel.jpg);
+    width: 390px;
+    height: 844px;
+}
+.buttonPage2{
+    width: 10%;
+    height: 5%; 
+    opacity: 0.1
+}
